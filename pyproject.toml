@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shorturl"
+version = "1.0.0"
+description = "CLI for the URL shortener application"
+readme = "README.md"
+
+[dependencies]
+requests = "^2.25.1"
+click = "^8.0"
