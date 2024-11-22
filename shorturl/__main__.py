@@ -13,5 +13,3 @@ cli.add_command(list)
 cli.add_command(lookup)
 cli.add_command(change_password)
 
-if __name__ == '__main__':
-    cli()

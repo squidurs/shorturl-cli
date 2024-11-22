@@ -8,6 +8,10 @@ version = "1.0.0"
 description = "CLI for the URL shortener application"
 readme = "README.md"
 
-[dependencies]
+[project.scripts]
+shorturl = "shorturl.__main__:cli"
+
+[project.dependencies]
 requests = "^2.25.1"
 click = "^8.0"
+
