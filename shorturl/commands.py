@@ -27,7 +27,6 @@ def login(username, password):
         if token:
             with open('token.txt', 'w') as token_file:
                 token_file.write(token)
-            click.echo("Login successful.")
         else:
             click.echo("Failed to retrieve token.")
             
